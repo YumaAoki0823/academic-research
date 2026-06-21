@@ -5,7 +5,7 @@
 # 特定のフォルダ（例: 「videos」フォルダ）を丸ごと除外する
 __pycache__
 data_mediapipe/
-data_yolo/
+
 
 # 特定のファイルだけを除外する
 yolo26n-pose.pt
