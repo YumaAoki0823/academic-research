@@ -1,0 +1,17 @@
+# 特定の拡張子（動画ファイルなど）をすべて除外する
+*.mp4
+*.mov
+
+# 特定のフォルダ（例: 「videos」フォルダ）を丸ごと除外する
+__pycache__
+data_mediapipe/
+data_yolo/
+
+# 特定のファイルだけを除外する
+yolo26n-pose.pt
+yolo26s-pose.pt
+yolo26m-pose.pt
+yolo26l-pose.pt
+yolo26x-pose.pt
+resize.py
+delete.py
